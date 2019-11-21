@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50328538-ba3f-45be-a399-5bdf89a96bee" name="Default Changelist" comment="" />
+    <list default="true" id="bd1f55ca-9e3e-4255-a903-a872ecd92ad5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +21,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1TszOLZKVDwuopR55tyYiK72J3q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1TvCIhAVzaJyEQ1vbYLjokFTWAh" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercice C" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +44,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="php" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$/Exercice_Date" port="8088">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
   </component>
@@ -53,14 +56,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="50328538-ba3f-45be-a399-5bdf89a96bee" name="Default Changelist" comment="" />
-      <created>1574263557918</created>
+      <changelist id="bd1f55ca-9e3e-4255-a903-a872ecd92ad5" name="Default Changelist" comment="" />
+      <created>1574331103363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574263557918</updated>
-      <workItem from="1574263559029" duration="1832000" />
-      <workItem from="1574329296491" duration="1574000" />
-      <workItem from="1574330945786" duration="162000" />
+      <updated>1574331103363</updated>
+      <workItem from="1574331104461" duration="3779000" />
     </task>
     <servers />
   </component>
@@ -72,9 +73,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

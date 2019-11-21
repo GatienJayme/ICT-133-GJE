@@ -15,7 +15,13 @@
     Date: 20.11.2019
     Version: 1.0
  */
-echo "Beerthe";
+
+echo "<ul>";
+for ($i = 1; $i < 10; $i++) {
+    echo "<li>Produit.$i</li>";
+}
+echo "</ul>";
+
 ?>
 
 </body>
