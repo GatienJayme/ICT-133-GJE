@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercice C" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.Exercice_Switch" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -44,7 +44,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="false" nameIsGenerated="true" document_root="$PROJECT_DIR$/Exercice_Date" port="8088">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" nameIsGenerated="true" document_root="$PROJECT_DIR$/3.Exercice_Switch" port="8088">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
@@ -64,6 +64,8 @@
       <workItem from="1574331104461" duration="3779000" />
       <workItem from="1574931445072" duration="318000" />
       <workItem from="1574931779294" duration="5997000" />
+      <workItem from="1574938126074" duration="543000" />
+      <workItem from="1574938789113" duration="945000" />
     </task>
     <servers />
   </component>
