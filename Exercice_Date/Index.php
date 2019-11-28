@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+<h1>Code qui affiche des dates</h1>
 
 <?php
 /*  Program: Exercice Date ICT-133
@@ -16,7 +17,17 @@
     Version: 1.0
 */
 
-/*for($date = 1; $date > )*/
+$timestamp = time(); // Date exercice
+// $timestamp = strtotime('17.09.2013'); // Date automatique
+
+// liste ordonne des dates
+echo "<ol>";
+echo "<li>".date ('l, d F Y', $timestamp)."</li>";
+echo "<li>".date ('M ds Y', $timestamp)."</li>";
+echo "<li>".date ('d/m/y h:i a', $timestamp)."</li>";
+echo "<li>".date ('d M Y, H:i:s', $timestamp)."</li>";
+echo "<li>".date ('r', $timestamp)."</li>";
+echo "</ol>";
 ?>
 
 
