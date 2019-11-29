@@ -12,10 +12,15 @@
 <ul>
     <?php
     // TODO : Ecrire le php qui remplace le html dans la balise ul ci-dessous
-    for ($i=1; $i <= 9; $i++){
-        echo"<li id= 'div$i'>";
+    $tab = array ("Xavier", "Altin", "Samuel", "Christopher", "Kevin", "Dmitri", "Miguel", "Luis", "Mounir", "Fabien");
+    for ($i=1; $i <= 9; $i++)
+    {
+        echo "<li id='div$i'>";
+            echo "$tab[$i]";
+        echo "</li>";
 
-        switch ($i) {
+
+        /*switch ($i) {
             case 0:
                 echo 'Xavier';
                 break;
@@ -48,7 +53,7 @@
                 break;
         }
 
-        echo "</li>";
+        echo "</li>";*/
     }
 
 
