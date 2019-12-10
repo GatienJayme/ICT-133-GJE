@@ -21,13 +21,13 @@ function strstotime() {
 $day = array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi","Dimanche");
 $month = array ("Januar", "Februar", "March","April", "May", "Juni", "July", "August",
 "September", "October", "November", "December");
-$_GET ['month'];
-$_GET ['year'];
+$month = $_GET ['month'];
+$year = $_GET ['year'];
 $now = time();
 
 echo'<div class="month">';
     echo"<ul>";
-        echo"<li>$month[7]<br>2017</li>";
+        echo"<li>$month<br>$year</li>";
     echo"</ul>";
 echo"</div>";
 
@@ -67,7 +67,6 @@ for($days = 1; $days <= 31; $days++) {
 echo"</ul>";
 
 
-
 /*
 echo'<ul class="days">';
 echo"<li>1</li>";
@@ -83,7 +82,6 @@ echo'<li><span class="active">10</span></li>';
 echo"<li>11</li>";
 echo"</ul>";
 */
-
 
 ?>
 
