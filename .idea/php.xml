@@ -2,7 +2,7 @@
 <project version="4">
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="ef9d0e43-4192-4da6-9123-09a65d24126e" name="PHP" home="" debugger_id="php.debugger.XDebug" />
+      <interpreter id="ef9d0e43-4192-4da6-9123-09a65d24126e" name="PHP (project level)" home="" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

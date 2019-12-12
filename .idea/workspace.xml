@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP (project level)" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1TvCIhAVzaJyEQ1vbYLjokFTWAh" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -71,6 +71,8 @@
       <workItem from="1575635878241" duration="5234000" />
       <workItem from="1576009074880" duration="3679000" />
       <workItem from="1576012974104" duration="189000" />
+      <workItem from="1576142588120" duration="242000" />
+      <workItem from="1576142890315" duration="2713000" />
     </task>
     <servers />
   </component>
