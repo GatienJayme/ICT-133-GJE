@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5.Calendrier" />
+    <property name="last_opened_file_path" value="C:/Temporaire/Gabarit" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -73,6 +73,7 @@
       <workItem from="1576012974104" duration="189000" />
       <workItem from="1576142588120" duration="242000" />
       <workItem from="1576142890315" duration="2715000" />
+      <workItem from="1576240421656" duration="3236000" />
     </task>
     <servers />
   </component>

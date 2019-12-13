@@ -25,7 +25,7 @@ $now = time();
 // Affichage du mois et de l'année qui change avc la query string
 echo '<div class="month">';
 echo "<ul>";
-echo "<li>$querymonth<br>$year</li>";
+echo "<li>" . $month[$querymonth - 1] . "<br>" . $year . "</li>";
 echo "</ul>";
 echo "</div>";
 
@@ -37,6 +37,10 @@ for ($weekdays = 0; $weekdays <= 7; $weekdays++) {
     echo "</li>";
 }
 echo "</ul>";
+// Savoir combien y a t-il de jours
+$month = "2019-$querymonth-01";
+// En fonction du mois trouvé on utlisera la fonction nbdays pour trouver si le mois à 31 ou 30 jours
+$nbdays = date("t", strtotime($month));
 
 // Essaier d'afficher les jours avant et après des mois
 for ($i = 1; $i <= 2; $i++) {
@@ -45,7 +49,7 @@ for ($i = 1; $i <= 2; $i++) {
 
 // Affichage des dates plus la couleur du jour que l'on ait
 echo '<ul class="days">';
-for ($days = 1; $days <= 31; $days++) {
+for ($days = 1; $days <= $nbdays; $days++) {
     echo "<li>";
     if ($days == date("j", $now)) {
         echo '<span class="active">' . $days . '</span>';
