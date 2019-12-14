@@ -23,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP (project level)" />
   <component name="ProjectId" id="1TvCIhAVzaJyEQ1vbYLjokFTWAh" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5.Calendrier" />
+    <property name="last_opened_file_path" value="C:/tools/php73/php.exe" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -44,7 +44,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" nameIsGenerated="true" document_root="$PROJECT_DIR$/5.Calendrier" port="8088">
+    <configuration name="133" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$/5.Calendrier" port="8088">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
@@ -71,6 +71,7 @@
       <workItem from="1575635878241" duration="5234000" />
       <workItem from="1576009074880" duration="3679000" />
       <workItem from="1576012974104" duration="422000" />
+      <workItem from="1576332106437" duration="11715000" />
     </task>
     <servers />
   </component>

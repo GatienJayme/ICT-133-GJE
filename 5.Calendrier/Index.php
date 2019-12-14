@@ -37,27 +37,44 @@ for ($weekdays = 0; $weekdays <= 7; $weekdays++) {
     echo "</li>";
 }
 echo "</ul>";
+
 // Savoir combien y a t-il de jours
 $month = "2019-$querymonth-01";
 // En fonction du mois trouvé on utlisera la fonction nbdays pour trouver si le mois à 31 ou 30 jours
 $nbdays = date("t", strtotime($month));
 
-// Essaier d'afficher les jours avant et après des mois
-for ($i = 1; $i <= 2; $i++) {
-    echo "$i";
+
+echo '<ul class="days">';
+
+// Affichage des jours avant du mois actuel
+$firstday = date("N", strtotime($year - $querymonth - 01));
+$lastdaylastmonth = date("t", strtotime("-1 month", strtotime("$year-$querymonth-01")));
+
+for ($i = $firstday; $i > 0; $i--) {
+    $daytoprint = $lastdaylastmonth - $i + 1;
+    echo "<li>" . $daytoprint . "</li>";
 }
 
-// Affichage des dates plus la couleur du jour que l'on ait
-echo '<ul class="days">';
+// echo "asdf ".strtotime("-1 month", "$year-$month-01");
+
+// Affichage des dates du mois actuel plus la couleur du jour que l'on ait
 for ($days = 1; $days <= $nbdays; $days++) {
     echo "<li>";
     if ($days == date("j", $now)) {
-        echo '<span class="active">' . $days . '</span>';
+        echo '<span class="active"><strong>' . $days . '</strong></span>';
     } else {
-        echo "$days";
+        echo "<strong>$days</strong>";
     }
     echo "</li>";
 }
+
+// Affichage des jours après ce mois
+$totday = $days + $firstday;
+//echo"$totday";
+
+$nbda = $totday%7;
+echo"$nbda";
+
 echo "</ul>";
 
 ?>
