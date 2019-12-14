@@ -43,9 +43,7 @@ $month = "2019-$querymonth-01";
 // En fonction du mois trouvé on utlisera la fonction nbdays pour trouver si le mois à 31 ou 30 jours
 $nbdays = date("t", strtotime($month));
 
-
 echo '<ul class="days">';
-
 // Affichage des jours avant du mois actuel
 $firstday = date("N", strtotime($year - $querymonth - 01));
 $lastdaylastmonth = date("t", strtotime("-1 month", strtotime("$year-$querymonth-01")));
@@ -69,11 +67,10 @@ for ($days = 1; $days <= $nbdays; $days++) {
 }
 
 // Affichage des jours après ce mois
-$totday = $days + $firstday;
-//echo"$totday";
-
-$nbda = $totday%7;
-echo"$nbda";
+$nbda = 7 - (($firstday + $days)% 7);
+for($i = 1; $i <= $nbda; $i++) {
+    echo"<li>" . $i . "</li>";
+}
 
 echo "</ul>";
 
