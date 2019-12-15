@@ -14,7 +14,6 @@
     Version: 1.0
 */
 
-// $max = strtotime('-1month', $startDate);
 $day = array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
 $month = array("Januar", "Februar", "March", "April", "May", "Juni", "July", "August",
     "September", "October", "November", "December");
@@ -39,23 +38,27 @@ for ($weekdays = 0; $weekdays <= 7; $weekdays++) {
 echo "</ul>";
 
 // Savoir combien y a t-il de jours
-$month = "2019-$querymonth-01";
-// En fonction du mois trouvé on utlisera la fonction nbdays pour trouver si le mois à 31 ou 30 jours
-$nbdays = date("t", strtotime($month));
+$monthdate = "2019-$querymonth-01";
 
+// En fonction du mois trouvé on utlisera la fonction nbdays pour trouver si le mois à 31 ou 30 jours
+$nbdays = date("t", strtotime($monthdate));
+
+// Affichage des jours avant du mois actuel (dates grisés du début)
 echo '<ul class="days">';
-// Affichage des jours avant du mois actuel
-$firstday = date("N", strtotime($year - $querymonth - 01));
+
+// La variable firstday sert a avoir les dates des premiers jours d'un mois
+$firstday = date("N", strtotime("-1 month", strtotime("$year-$querymonth-01")));
+
+// La variable lastdaylastmonth sert a avoir les dates des jours de fin du mois
 $lastdaylastmonth = date("t", strtotime("-1 month", strtotime("$year-$querymonth-01")));
 
+// Cette variable sert a afficher les jours grisés des dates au début
 for ($i = $firstday; $i > 0; $i--) {
     $daytoprint = $lastdaylastmonth - $i + 1;
     echo "<li>" . $daytoprint . "</li>";
 }
 
-// echo "asdf ".strtotime("-1 month", "$year-$month-01");
-
-// Affichage des dates du mois actuel plus la couleur du jour que l'on ait
+// Affichage des dates du mois plus la couleur du jour actuel
 for ($days = 1; $days <= $nbdays; $days++) {
     echo "<li>";
     if ($days == date("j", $now)) {
@@ -66,10 +69,10 @@ for ($days = 1; $days <= $nbdays; $days++) {
     echo "</li>";
 }
 
-// Affichage des jours après ce mois
-$nbda = 7 - (($firstday + $days)% 7);
-for($i = 1; $i <= $nbda; $i++) {
-    echo"<li>" . $i . "</li>";
+// Affichage des jours après ce mois (dates grisés du début du mois)
+$nbda = 7 - (($firstday + $nbdays) % 7);
+for ($i = 1; $i <= $nbda; $i++) {
+    echo "<li>" . $i . "</li>";
 }
 
 echo "</ul>";
