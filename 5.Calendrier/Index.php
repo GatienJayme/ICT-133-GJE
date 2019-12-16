@@ -21,6 +21,13 @@ $querymonth = $_GET ['month'];
 $year = $_GET ['year'];
 $now = time();
 
+function getDaysBefore ($month, $year)
+{
+    // TODO: Ecrire le code de la fonction
+
+}
+
+
 // Affichage du mois et de l'année qui change avc la query string
 echo '<div class="month">';
 echo "<ul>";
@@ -68,6 +75,12 @@ for ($days = 1; $days <= $nbdays; $days++) {
     }
     echo "</li>";
 }
+
+function getDaysAfter ($month, $year)
+{
+    // TODO: Ecrire le code de la fonction
+}
+
 
 // Affichage des jours après ce mois (dates grisés du début du mois)
 $nbda = 7 - (($firstday + $nbdays) % 7);
