@@ -27,7 +27,7 @@ function getDaysBefore ($month, $year)
 
 }
 
-
+echo"getDaysBefore()";
 // Affichage du mois et de l'année qui change avc la query string
 echo '<div class="month">';
 echo "<ul>";
