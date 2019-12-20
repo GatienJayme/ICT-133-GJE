@@ -1,5 +1,5 @@
 <?php
-$action = $_GET['action'];
+require_once ('controller/controller.php');
 
 if (isset ($_GET['action'])) {
     $action = $_GET['action'];
@@ -13,10 +13,12 @@ $content = 'Contenu de la page du Flicage';
 switch ($action) {
     case 'movies':
         $title = 'Films';
+        showMovies();
         require_once'view/movies.php';
         break;
     case 'concerts':
         $title = 'Concerts';
+        showConcerts();
         require_once'view/concerts.php';
         break;
     default:

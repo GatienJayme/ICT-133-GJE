@@ -29,8 +29,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/tools/php73/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MVC" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gatien.jayme\Documents\Github\ICT-133-GJE\MVC" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,7 +50,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="133" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$/5.Calendrier" port="8088">
+    <configuration name="133" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$/MVC" port="8088">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
@@ -77,6 +82,7 @@
       <workItem from="1576402992516" duration="6995000" />
       <workItem from="1576512405160" duration="2043000" />
       <workItem from="1576601998271" duration="7758000" />
+      <workItem from="1576845286955" duration="5184000" />
     </task>
     <servers />
   </component>
