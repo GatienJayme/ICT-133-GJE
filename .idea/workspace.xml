@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -83,6 +83,8 @@
       <workItem from="1576512405160" duration="2043000" />
       <workItem from="1576601998271" duration="7758000" />
       <workItem from="1576845286955" duration="5184000" />
+      <workItem from="1578562125679" duration="607000" />
+      <workItem from="1578566261586" duration="2324000" />
     </task>
     <servers />
   </component>

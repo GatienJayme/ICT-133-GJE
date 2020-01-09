@@ -1,8 +1,8 @@
 <?php
-/*  Program:
+/*  Program: Demo MVC
     Author: Gatien Jayme
     Date: 19.12.2019
-    Version:
+    Version: 1.0
 */
 ob_start();
 ?>
